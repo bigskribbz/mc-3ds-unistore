@@ -1,4 +1,7 @@
 #! /bin/sh
+wget https://apt.devkitpro.org/install-devkitpro-pacman
+chmod +x ./install-devkitpro-pacman
+sudo ./install-devkitpro-pacman
 sudo dkp-pacman -S tex3ds
 cd /opt/devkitpro/tools/bin/
 ./tex3ds -i /opt/devkitpro/tools/bin/atlas.t3s -o /opt/devkitpro/tools/bin/atlas.t3x
