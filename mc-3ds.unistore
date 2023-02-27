@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"Minecraft 3DS Customization Database",
       "file":"mc-3ds.unistore",
-      "revision":87,
+      "revision":88,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/bigskribbz/mc-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -2856,6 +2856,123 @@
             {
                "type":"deleteFile",
                "file":"sdmc:/3ds/2b2t_legends.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ]
+      },
+      {
+         "info":{
+            "title":"Nintendo Skin Pack",
+            "author":"Alerdy",
+            "version":"v1.0",
+            "category":[
+               "skin pack"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"There are 8 Nintendo skins, and more will be added.. hopefully. Replaces some of the Festive skins",
+            "license":"unknown",
+            "icon_index":23,
+            "sheet_index":0,
+            "last_updated":"2017-09-17 at 18:19 (UTC)"
+         },
+      "Nintendo Skin Pack (USA)":[
+            {
+               "file":"https:https://archive.org/download/mc-3ds-customization-repo/Nintendo_Skin_Pack.7z",
+               "output":"sdmc:/3ds/Nintendo_Skin_Pack.7z",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Festive",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/Nintendo_Skin_Pack.7z",
+               "input":"00040000001b8700/romfs/loc/en_US-pocket.blang",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/loc/en_US-pocket.blang"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/Nintendo_Skin_Pack.7z",
+               "input":"00040000001b8700/romfs/skins/Festive",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Festive/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/Nintendo_Skin_Pack.7z"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "Nintendo Skin Pack (EUR)":[
+            {
+               "file":"https:https://archive.org/download/mc-3ds-customization-repo/Nintendo_Skin_Pack.7z",
+               "output":"sdmc:/3ds/Nintendo_Skin_Pack.7z",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Festive",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/Nintendo_Skin_Pack.7z",
+               "input":"00040000001b8700/romfs/loc/en_US-pocket.blang",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/loc/en_US-pocket.blang"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/Nintendo_Skin_Pack.7z",
+               "input":"00040000001b8700/romfs/skins/Festive",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Festive/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/Nintendo_Skin_Pack.7z"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "Nintendo Skin Pack (JPN)":[
+            {
+               "file":"https:https://archive.org/download/mc-3ds-customization-repo/Nintendo_Skin_Pack.7z",
+               "output":"sdmc:/3ds/Nintendo_Skin_Pack.7z",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Festive",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/Nintendo_Skin_Pack.7z",
+               "input":"00040000001b8700/romfs/loc/en_US-pocket.blang",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/loc/en_US-pocket.blang"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/Nintendo_Skin_Pack.7z",
+               "input":"00040000001b8700/romfs/skins/Festive",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Festive/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/Nintendo_Skin_Pack.7z"
             },
             {
                "type":"promptMessage",
