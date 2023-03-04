@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"Minecraft 3DS Customization Database",
       "file":"mc-3ds.unistore",
-      "revision":88,
+      "revision":89,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/bigskribbz/mc-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -26,12 +26,12 @@
             "license":"unknown",
             "icon_index":18,
             "sheet_index":0,
-            "last_updated":"2022-02-10 at 06:24 (UTC)"
+            "last_updated":"2023-03-03 at 22:02 (UTC)"
          },
          "Vanilla Minecraft Textures (USA)":[
             {
-               "file":"https://archive.org/download/mc-3ds-customization-repo/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
-               "output":"sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
+               "file":"https://archive.org/download/mc-3ds-customization-repo/v1-10.7z",
+               "output":"sdmc:/3ds/v1-10.7z",
                "type":"downloadFile"
             },
             {
@@ -41,24 +41,35 @@
             },
             {
                "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base",
+               "required":false
+            },
+            {
+               "type":"rmdir",
                "directory":"sdmc:/luma/titles/00040000001B8700/romfs/atlas",
                "required":false
             },
             {
                "type":"extractFile",
-               "file":"sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
-               "input":"00040000001B8700/romfs/resourcepacks/vanilla/client/",
+               "file":"sdmc:/3ds/v1-10.7z",
+               "input":"00040000XXXXXXXX/romfs/resourcepacks/vanilla/client/",
                "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/"
             },
             {
                "type":"extractFile",
-               "file":"sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
-               "input":"00040000001B8700/romfs/atlas/",
+               "file":"sdmc:/3ds/v1-10.7z",
+               "input":"00040000XXXXXXXX/romfs/skins/skinpacks/Base/",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base/"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/v1-10.7z",
+               "input":"00040000XXXXXXXX/romfs/atlas/",
                "output":"sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
             },
             {
                "type":"deleteFile",
-               "file":"sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z"
+               "file":"sdmc:/3ds/v1-10.7z"
             },
             {
                "type":"promptMessage",
@@ -68,8 +79,8 @@
          ],
          "Vanilla Minecraft Textures (EUR)":[
             {
-               "file":"https://archive.org/download/mc-3ds-customization-repo/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
-               "output":"sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
+               "file":"https://archive.org/download/mc-3ds-customization-repo/v1-10.7z",
+               "output":"sdmc:/3ds/v1-10.7z",
                "type":"downloadFile"
             },
             {
@@ -79,24 +90,35 @@
             },
             {
                "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base",
+               "required":false
+            },
+            {
+               "type":"rmdir",
                "directory":"sdmc:/luma/titles/000400000017CA00/romfs/atlas",
                "required":false
             },
             {
                "type":"extractFile",
-               "file":"sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
-               "input":"000400000017CA00/romfs/resourcepacks/vanilla/client/",
+               "file":"sdmc:/3ds/v1-10.7z",
+               "input":"00040000XXXXXXXX/romfs/resourcepacks/vanilla/client/",
                "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/"
             },
             {
                "type":"extractFile",
-               "file":"sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
-               "input":"000400000017CA00/romfs/atlas/",
+               "file":"sdmc:/3ds/v1-10.7z",
+               "input":"00040000XXXXXXXX/romfs/skins/skinpacks/Base/",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base/"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/v1-10.7z",
+               "input":"00040000XXXXXXXX/romfs/atlas/",
                "output":"sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
             },
             {
                "type":"deleteFile",
-               "file":"sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z"
+               "file":"sdmc:/3ds/v1-10.7z"
             },
             {
                "type":"promptMessage",
@@ -106,8 +128,8 @@
          ],
          "Vanilla Minecraft Textures (JPN)":[
             {
-               "file":"https://archive.org/download/mc-3ds-customization-repo/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
-               "output":"sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
+               "file":"https://archive.org/download/mc-3ds-customization-repo/v1-10.7z",
+               "output":"sdmc:/3ds/v1-10.7z",
                "type":"downloadFile"
             },
             {
@@ -117,24 +139,35 @@
             },
             {
                "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Base",
+               "required":false
+            },
+            {
+               "type":"rmdir",
                "directory":"sdmc:/luma/titles/000400000017FD00/romfs/atlas",
                "required":false
             },
             {
                "type":"extractFile",
-               "file":"sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
-               "input":"000400000017FD00/romfs/resourcepacks/vanilla/client/",
+               "file":"sdmc:/3ds/v1-10.7z",
+               "input":"00040000XXXXXXXX/romfs/resourcepacks/vanilla/client/",
                "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/"
             },
             {
                "type":"extractFile",
-               "file":"sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
-               "input":"000400000017FD00/romfs/atlas/",
+               "file":"sdmc:/3ds/v1-10.7z",
+               "input":"00040000XXXXXXXX/romfs/skins/skinpacks/Base/",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Base/"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/v1-10.7z",
+               "input":"00040000XXXXXXXX/romfs/atlas/",
                "output":"sdmc:/luma/titles/000400000017FD00/romfs/atlas/"
             },
             {
                "type":"deleteFile",
-               "file":"sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z"
+               "file":"sdmc:/3ds/v1-10.7z"
             },
             {
                "type":"promptMessage",
@@ -144,8 +177,8 @@
          ],
          "Vanilla Minecraft Textures Better Grass (USA)":[
             {
-               "file":"https://archive.org/download/mc-3ds-customization-repo/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X-Better-Grass.7z",
-               "output":"sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X-Better-Grass.7z",
+               "file":"https://archive.org/download/mc-3ds-customization-repo/v1-10-better-grass.7z",
+               "output":"sdmc:/3ds/v1-10-better-grass.7z",
                "type":"downloadFile"
             },
             {
@@ -155,24 +188,35 @@
             },
             {
                "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base",
+               "required":false
+            },
+            {
+               "type":"rmdir",
                "directory":"sdmc:/luma/titles/00040000001B8700/romfs/atlas",
                "required":false
             },
             {
                "type":"extractFile",
-               "file":"sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X-Better-Grass.7z",
-               "input":"00040000001B8700/romfs/resourcepacks/vanilla/client/",
+               "file":"sdmc:/3ds/v1-10-better-grass.7z",
+               "input":"00040000XXXXXXXX/romfs/resourcepacks/vanilla/client/",
                "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/"
             },
             {
                "type":"extractFile",
-               "file":"sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X-Better-Grass.7z",
-               "input":"00040000001B8700/romfs/atlas/",
+               "file":"sdmc:/3ds/v1-10-better-grass.7z",
+               "input":"00040000XXXXXXXX/romfs/skins/skinpacks/Base/",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base/"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/v1-10-better-grass.7z",
+               "input":"00040000XXXXXXXX/romfs/atlas/",
                "output":"sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
             },
             {
                "type":"deleteFile",
-               "file":"sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X-Better-Grass.7z"
+               "file":"sdmc:/3ds/v1-10-better-grass.7z"
             },
             {
                "type":"promptMessage",
@@ -182,8 +226,8 @@
          ],
          "Vanilla Minecraft Textures Better Grass (EUR)":[
             {
-               "file":"https://archive.org/download/mc-3ds-customization-repo/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X-Better-Grass.7z",
-               "output":"sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X-Better-Grass.7z",
+               "file":"https://archive.org/download/mc-3ds-customization-repo/v1-10-better-grass.7z",
+               "output":"sdmc:/3ds/v1-10-better-grass.7z",
                "type":"downloadFile"
             },
             {
@@ -193,24 +237,35 @@
             },
             {
                "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base",
+               "required":false
+            },
+            {
+               "type":"rmdir",
                "directory":"sdmc:/luma/titles/000400000017CA00/romfs/atlas",
                "required":false
             },
             {
                "type":"extractFile",
-               "file":"sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X-Better-Grass.7z",
-               "input":"000400000017CA00/romfs/resourcepacks/vanilla/client/",
+               "file":"sdmc:/3ds/v1-10-better-grass.7z",
+               "input":"00040000XXXXXXXX/romfs/resourcepacks/vanilla/client/",
                "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/"
             },
             {
                "type":"extractFile",
-               "file":"sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X-Better-Grass.7z",
-               "input":"000400000017CA00/romfs/atlas/",
+               "file":"sdmc:/3ds/v1-10-better-grass.7z",
+               "input":"00040000XXXXXXXX/romfs/skins/skinpacks/Base/",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base/"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/v1-10-better-grass.7z",
+               "input":"00040000XXXXXXXX/romfs/atlas/",
                "output":"sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
             },
             {
                "type":"deleteFile",
-               "file":"sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X-Better-Grass.7z"
+               "file":"sdmc:/3ds/v1-10-better-grass.7z"
             },
             {
                "type":"promptMessage",
@@ -220,8 +275,8 @@
          ],
          "Vanilla Minecraft Textures Better Grass (JPN)":[
             {
-               "file":"https://archive.org/download/mc-3ds-customization-repo/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X-Better-Grass.7z",
-               "output":"sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X-Better-Grass.7z",
+               "file":"https://archive.org/download/mc-3ds-customization-repo/v1-10-better-grass.7z",
+               "output":"sdmc:/3ds/v1-10-better-grass.7z",
                "type":"downloadFile"
             },
             {
@@ -231,24 +286,35 @@
             },
             {
                "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Base",
+               "required":false
+            },
+            {
+               "type":"rmdir",
                "directory":"sdmc:/luma/titles/000400000017FD00/romfs/atlas",
                "required":false
             },
             {
                "type":"extractFile",
-               "file":"sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X-Better-Grass.7z",
-               "input":"000400000017FD00/romfs/resourcepacks/vanilla/client/",
+               "file":"sdmc:/3ds/v1-10-better-grass.7z",
+               "input":"00040000XXXXXXXX/romfs/resourcepacks/vanilla/client/",
                "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/"
             },
             {
                "type":"extractFile",
-               "file":"sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X-Better-Grass.7z",
-               "input":"000400000017FD00/romfs/atlas/",
+               "file":"sdmc:/3ds/v1-10-better-grass.7z",
+               "input":"00040000XXXXXXXX/romfs/skins/skinpacks/Base/",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Base/"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/v1-10-better-grass.7z",
+               "input":"00040000XXXXXXXX/romfs/atlas/",
                "output":"sdmc:/luma/titles/000400000017FD00/romfs/atlas/"
             },
             {
                "type":"deleteFile",
-               "file":"sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X-Better-Grass.7z"
+               "file":"sdmc:/3ds/v1-10-better-grass.7z"
             },
             {
                "type":"promptMessage",
