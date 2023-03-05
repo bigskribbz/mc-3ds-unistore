@@ -22,6 +22,7 @@ Support: Minecraft 3DS Community and Universal-Server Discord servers
 Editing: https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for find and replace tool, GitHub editor, Ohana3DS for texture conversion, Piskel for sprite editor, and PineTools for image flipper.
 
 ### Customization Creators
+# I need to update this stuff eventually
 Kharrii2 Dirt/Grass Block Face Textures: MegaMinerDL, Ported by susbaconhairman
 
 Vanilla Minecraft Textures (v1.10): Mojang, Ported by DeadSkullzJr
