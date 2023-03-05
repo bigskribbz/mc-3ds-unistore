@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"Minecraft 3DS Customization Database",
       "file":"mc-3ds.unistore",
-      "revision":89,
+      "revision":90,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/bigskribbz/mc-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -58,7 +58,7 @@
             {
                "type":"extractFile",
                "file":"sdmc:/3ds/v1-10.7z",
-               "input":"00040000XXXXXXXX/romfs/skins/skinpacks/Base/",
+               "input":"00040000XXXXXXXX/romfs/resourcepacks/skins/skinpacks/Base/",
                "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base/"
             },
             {
@@ -107,7 +107,7 @@
             {
                "type":"extractFile",
                "file":"sdmc:/3ds/v1-10.7z",
-               "input":"00040000XXXXXXXX/romfs/skins/skinpacks/Base/",
+               "input":"00040000XXXXXXXX/romfs/resourcepacks/skins/skinpacks/Base/",
                "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base/"
             },
             {
@@ -156,7 +156,7 @@
             {
                "type":"extractFile",
                "file":"sdmc:/3ds/v1-10.7z",
-               "input":"00040000XXXXXXXX/romfs/skins/skinpacks/Base/",
+               "input":"00040000XXXXXXXX/romfs/resourcepacks/skins/skinpacks/Base/",
                "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Base/"
             },
             {
@@ -205,7 +205,7 @@
             {
                "type":"extractFile",
                "file":"sdmc:/3ds/v1-10-better-grass.7z",
-               "input":"00040000XXXXXXXX/romfs/skins/skinpacks/Base/",
+               "input":"00040000XXXXXXXX/romfs/resourcepacks/skins/skinpacks/Base/",
                "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base/"
             },
             {
@@ -254,7 +254,7 @@
             {
                "type":"extractFile",
                "file":"sdmc:/3ds/v1-10-better-grass.7z",
-               "input":"00040000XXXXXXXX/romfs/skins/skinpacks/Base/",
+               "input":"00040000XXXXXXXX/romfs/resourcepacks/skins/skinpacks/Base/",
                "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base/"
             },
             {
@@ -303,7 +303,7 @@
             {
                "type":"extractFile",
                "file":"sdmc:/3ds/v1-10-better-grass.7z",
-               "input":"00040000XXXXXXXX/romfs/skins/skinpacks/Base/",
+               "input":"00040000XXXXXXXX/romfs/resourcepacks/skins/skinpacks/Base/",
                "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Base/"
             },
             {
