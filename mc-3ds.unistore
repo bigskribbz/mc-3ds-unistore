@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"Minecraft 3DS Customization Database",
       "file":"mc-3ds.unistore",
-      "revision":91,
+      "revision":92,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/bigskribbz/mc-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -2949,7 +2949,7 @@
          },
       "Nintendo Skin Pack (USA)":[
             {
-               "file":"https:https://archive.org/download/mc-3ds-customization-repo/Nintendo_Skin_Pack.7z",
+               "file":"https://archive.org/download/mc-3ds-customization-repo/Nintendo_Skin_Pack.7z",
                "output":"sdmc:/3ds/Nintendo_Skin_Pack.7z",
                "type":"downloadFile"
             },
@@ -2982,7 +2982,7 @@
          ],
          "Nintendo Skin Pack (EUR)":[
             {
-               "file":"https:https://archive.org/download/mc-3ds-customization-repo/Nintendo_Skin_Pack.7z",
+               "file":"https://archive.org/download/mc-3ds-customization-repo/Nintendo_Skin_Pack.7z",
                "output":"sdmc:/3ds/Nintendo_Skin_Pack.7z",
                "type":"downloadFile"
             },
@@ -3015,7 +3015,7 @@
          ],
          "Nintendo Skin Pack (JPN)":[
             {
-               "file":"https:https://archive.org/download/mc-3ds-customization-repo/Nintendo_Skin_Pack.7z",
+               "file":"https://archive.org/download/mc-3ds-customization-repo/Nintendo_Skin_Pack.7z",
                "output":"sdmc:/3ds/Nintendo_Skin_Pack.7z",
                "type":"downloadFile"
             },
